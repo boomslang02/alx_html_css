@@ -5,6 +5,10 @@
     color: white;
 }
 
+body {
+    font-family: system-ui;
+}
+
 nav div a {
     color: white;
     text-decoration: none;
@@ -92,8 +96,32 @@ h2 span {
     align-items: center;
     font-size: 20px;
     padding: 70px 150px;
+    margin-bottom: 100px;
 }
 
 .weather img {
     padding-right: 40px;
+}
+
+.phillip {
+    height: 30px;
+    width: 30px;
+}
+
+.tuto {
+    background-color: white;
+}
+
+.tutorials {
+    display: flex;
+    margin: 100px 90px 100px 90px;
+    justify-content: space-around;
+}
+
+.tutorials div {
+    padding: 0 30px;
+}
+
+.membership {
+    background-color: rgb(7, 22, 41);
 }
