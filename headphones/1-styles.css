@@ -1,0 +1,134 @@
+/* Reset and base styles copied from 0-styles.css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+body > * {
+  width: 100%;
+  max-width: 1000px;   
+  margin: 0 auto;     
+}
+
+/* Navigation */
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.logo {
+  height: 40px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #f3f2f2;
+  font-weight: bold;
+}
+
+nav a:hover,
+nav a:active {
+  color: #FF6565;
+}
+
+.hero {
+  position: relative;
+  text-align: center;
+  padding: 60px 20px;
+  background-color: #000;
+  color: #fff;
+}
+
+.hero-img {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+  margin-top: 20px;
+}
+
+.hero-content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.btn {
+  background-color: #ff3b3f;
+  color: #fff;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn:hover,
+.btn:active {
+  opacity: 0.9;
+}
+
+
+/* Section styling */
+.section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.section-desc {
+  max-width: 600px;
+  margin: 0 auto 40px;
+}
+
+/* Features grid */
+.features {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.feature {
+  flex: 1 1 200px;
+  text-align: center;
+  padding: 20px;
+}
+
+.feature span {
+  font-size: 50px; /* icon size */
+  color: #FF6565;  /* accent color */
+  display: block;
+  margin-bottom: 15px;
+}
+
+.feature h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.feature p {
+  font-size: 0.9rem;
+  color: #555;
+}
